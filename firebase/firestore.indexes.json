@@ -1,0 +1,118 @@
+{
+  "indexes": [
+    {
+      "collectionGroup": "budgetListCollection",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "userForeignKEY",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "folderForeignKEY",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "date_created",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "pieChartCollection",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "userForeignKEY",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "folderForeignKEY",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "category",
+          "order": "DESCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "folderCreateCollection",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "userForeignKEY",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "yearCreated",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "dateCreated",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "budgetListCollection",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "userForeignKEY",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "folderForeignKEY",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "date_created",
+          "order": "DESCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "budgetListCollection",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "userForeignKEY",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "date_created",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "notifyActionCollection",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "userForeignKEY",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "currentTimeRelative",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "folderCreateCollection",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "userForeignKEY",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "dateCreated",
+          "order": "DESCENDING"
+        }
+      ]
+    }
+  ]
+}
